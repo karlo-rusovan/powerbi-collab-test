@@ -1,0 +1,7 @@
+expression PathExcelFiles = "C:\Program Files (x86)\Microsoft Power BI Desktop\bin\SampleData\Financial Sample.xlsx" meta [IsParameterQuery=true, Type="Any", IsParameterQueryRequired=true]
+	lineageTag: 3bdc19d6-ed95-402e-8b35-28f9b778bd89
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
