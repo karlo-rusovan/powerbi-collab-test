@@ -153,6 +153,15 @@ table Sheet1
 
 		annotation SummarizationSetBy = Automatic
 
+	column Margin = 'Sheet1'[Sale Price] - 'Sheet1'[Manufacturing Price]
+		dataType: int64
+		formatString: 0
+		lineageTag: 79c6d20d-1dce-4932-b987-3250c019c200
+		summarizeBy: sum
+		isDataTypeInferred
+
+		annotation SummarizationSetBy = Automatic
+
 	partition Sheet1 = m
 		mode: import
 		source =
