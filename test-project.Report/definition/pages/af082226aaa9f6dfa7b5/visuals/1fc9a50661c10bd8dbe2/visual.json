@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
-  "name": "af3d594a91dbfdb42c41",
+  "name": "1fc9a50661c10bd8dbe2",
   "position": {
-    "x": 9.4955489614243316,
-    "y": 0,
-    "z": 0,
-    "width": 991.33531157270022,
-    "height": 562.13649851632044,
-    "tabOrder": 0
+    "x": 9,
+    "y": 570,
+    "width": 991,
+    "height": 150,
+    "z": 1,
+    "tabOrder": 1
   },
   "visual": {
-    "visualType": "clusteredBarChart",
+    "visualType": "lineChart",
     "query": {
       "queryState": {
         "Category": {
@@ -65,7 +65,7 @@
               },
               "queryRef": "financials.Date.Variation.Date Hierarchy.Quarter",
               "nativeQueryRef": "Date Quarter",
-              "active": true
+              "active": false
             },
             {
               "field": {
@@ -91,7 +91,7 @@
               },
               "queryRef": "financials.Date.Variation.Date Hierarchy.Month",
               "nativeQueryRef": "Date Month",
-              "active": true
+              "active": false
             },
             {
               "field": {
@@ -117,7 +117,7 @@
               },
               "queryRef": "financials.Date.Variation.Date Hierarchy.Day",
               "nativeQueryRef": "Date Day",
-              "active": true
+              "active": false
             }
           ]
         },
@@ -145,26 +145,6 @@
           ]
         }
       }
-    },
-    "objects": {
-      "dataPoint": [
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 9,
-                      "Percent": 0.4
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ]
     },
     "drillFilterOtherVisuals": true
   }
