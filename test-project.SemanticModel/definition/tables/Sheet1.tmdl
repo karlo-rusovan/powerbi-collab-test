@@ -1,10 +1,16 @@
 table Sheet1
 	lineageTag: fe8ea9b3-91ec-4df7-95d5-933563ac615b
 
-	measure Measure = SUM(financials[Discounts])
+
+	measure Measure_discounts = SUM(financials[Discounts])
 		lineageTag: 7443f0f1-f8e9-45c7-a6eb-630a59db48c9
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Measure = SUM(financials[Sale Price])
+		formatString: 0
+		lineageTag: cb547ded-4aec-4195-a34f-c3d98bddb9a2
+
 
 	column Segment
 		dataType: string
